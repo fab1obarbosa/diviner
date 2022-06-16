@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head lang="pt-br">
+    <title>Adivinho</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg"
+    />
+  </head>
+  <body>
+    <main id="container">
+      <figure>
+        <img
+          src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg"
+          alt="Imagem de uma bola de cristal"
+        />
+      </figure>
+      <h1>Vou revelar seu destino!</h1>
+      <p>Faça uma pergunta e veja seu destino ser revelado.</p>
+      <input id="question" type="text" placeholder="Digite sua pergunta" />
+      <button id="questionButton" onclick="fazerPergunta()">
+        Fazer Pergunta
+      </button>
+
+      <h3 id="answer"></h3>
+    </main>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+:root {
+  font-size: 10px;
+  font-family: sans-serif;
+  --background-color: #000;
+  --text-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+#container {
+  width: 80%;
+  max-width: 40rem;
+  margin-inline: auto;
+  margin-top: 8rem;
+}
+
+#container figure img {
+  width: 18rem;
+}
+
+#container h1 {
+  margin: 4rem 0 1rem 0;
+  opacity: 0.9;
+}
+
+#container p {
+  margin-bottom: 4rem;
+  opacity: 0.7;
+}
+
+#container input,
+button {
+  display: block;
+  width: 100%;
+  padding: 2rem;
+
+  font-size: 2rem;
+  border-radius: 0.4rem;
+}
+
+#container input {
+  margin-bottom: 2rem;
+}
+
+#container button {
+  background-color: blueviolet;
+  color: var(--text-color);
+  border: none;
+}
+
+#container button:hover {
+  filter: brightness(1.2);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#container #answer {
+  margin-top: 3rem;
+  transition: opacity 1s;
+}
+
+#container #answer div {
+  font-weight: normal;
+  opacity: 0.9;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}

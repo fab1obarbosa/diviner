@@ -1,8 +1,8 @@
 <h1>Diviner - discover your destiny with a question.</h1>
 
-<div align="center">
-<img src="">
-</div>
+
+<img src="https://user-images.githubusercontent.com/69371317/174162224-9515b3b3-8552-4cd4-a53a-0da4c6f09936.png">
+
 
 <br>
 <h1>Description</h1> 
@@ -12,9 +12,8 @@
 <br>
 <h1>Languages</h1> 
 <ul>
-  <li>HTML<li>
-  <li>CSS<li>
-<li>JavaScript<li>
+ <li>HTML</li>
+ <li>CSS</li>
+ <li>JavaScript</li>
 </ul>
-
 <br>
